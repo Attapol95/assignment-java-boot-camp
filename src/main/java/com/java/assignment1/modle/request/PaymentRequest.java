@@ -5,7 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.NotBlank;
 import java.util.List;
 
 @Data
@@ -27,7 +26,6 @@ public class PaymentRequest {
     @NoArgsConstructor
     @AllArgsConstructor
     public static class ProductOrder {
-        @NotBlank
         private Integer productId;
         private Integer quantity;
     }
