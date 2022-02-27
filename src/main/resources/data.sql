@@ -1,0 +1,5 @@
+insert into product (id, name, image_url, current_price, previous_price, description, shop_province, rating_avg, rating_total, quantity)
+values ('1', 'Jack Purcell Lp Ls Ox รุ่น 570483CS1', 'https://bit.ly/3JU9ze4', 1443.00, 2290.00, 'รองเท้าผ้าใบ Jack Purcell Lp Ls Ox จากแบรนด์ CONVERSE เป็นรองเท้าหุ้มส้นรุ่น Jack Purcell LP ( Low Profile ) ทรงหุ้มส้น', 'BKK', 4.5, 50, 100),
+('2', 'Ctas Dainty Pop OX รุ่น 571435CF1WTXX', 'https://bit.ly/3JU9ze4', 1166.00, 2590.00, 'รองเท้าผ้าใบ Jack Purcell Lp Ls Ox จากแบรนด์ CONVERSE เป็นรองเท้าหุ้มส้นรุ่น Jack Purcell LP ( Low Profile ) ทรงหุ้มส้น', 'BKK', 4.8, 100, 100),
+('3', 'Converse Ctas Garden Party Platform Ox รุ่น 570920CU1ET', 'https://bit.ly/3JU9ze4', 1254.00, 1990.00, 'รองเท้าผ้าใบ Jack Purcell Lp Ls Ox จากแบรนด์ CONVERSE เป็นรองเท้าหุ้มส้นรุ่น Jack Purcell LP ( Low Profile ) ทรงหุ้มส้น', 'BKK', 5.0, 150, 100),
+('4', 'Converse Chuck Taylor All Star Move รุ่น 572071CH1WT', 'https://bit.ly/3JU9ze4', 1632.00, 2590.00, 'รองเท้าผ้าใบ Jack Purcell Lp Ls Ox จากแบรนด์ CONVERSE เป็นรองเท้าหุ้มส้นรุ่น Jack Purcell LP ( Low Profile ) ทรงหุ้มส้น', 'BKK', 4.0, 80, 100);
