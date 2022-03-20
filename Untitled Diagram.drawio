@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T05:19:04.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="MeGQjJGDA5MnI0-D8rJ6" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-20T16:32:12.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="jOt9wPen_jAzUGvjH_RE" version="17.1.3" type="github">
   <diagram id="HmDtId7qisvzbzxh--_U" name="Page-1">
-    <mxGraphModel dx="782" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,6 +117,127 @@
               <mxPoint x="419" y="435" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-28" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="780" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-29" value="RTCS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-30" value="k8s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-32" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="670" y="870" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-33" value="DPTeller" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1020" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-36" value="firebase real tiem&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="475" y="650" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-39" value="IoT" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="225" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=1.006;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kkaidvIwW0H5mVTuyj-v-39" target="kkaidvIwW0H5mVTuyj-v-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="730" as="sourcePoint" />
+            <mxPoint x="350" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-41" value="kafka" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-42" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kkaidvIwW0H5mVTuyj-v-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="870" as="sourcePoint" />
+            <mxPoint x="610" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-43" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="kkaidvIwW0H5mVTuyj-v-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="1070" as="sourcePoint" />
+            <mxPoint x="500" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-45" value="ข้อมูล update ยอดเงิน" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-46" value="location data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-47" value="FxHub" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kkaidvIwW0H5mVTuyj-v-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1000" as="sourcePoint" />
+            <mxPoint x="460" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-49" value="ข้อมูล cash box" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-50" value="ข้อมูล cash box, update ยอดเงิน" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="905" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-51" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.012;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.934;exitY=0.261;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kkaidvIwW0H5mVTuyj-v-29" target="kkaidvIwW0H5mVTuyj-v-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="900" as="sourcePoint" />
+            <mxPoint x="530" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-52" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="kkaidvIwW0H5mVTuyj-v-29" target="kkaidvIwW0H5mVTuyj-v-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="780" as="sourcePoint" />
+            <mxPoint x="510" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-53" value="ข้อมูล ยอดเงิน" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0.673;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kkaidvIwW0H5mVTuyj-v-36" target="kkaidvIwW0H5mVTuyj-v-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="860" as="sourcePoint" />
+            <mxPoint x="530" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-55" value="location data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-56" value="data exchange rate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-57" value="SFTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-58" value="RAE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-59" value="csv file สรุปยอดเงินที่เปลี่ยนแปลงของ cash center" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="730" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.003;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kkaidvIwW0H5mVTuyj-v-29" target="kkaidvIwW0H5mVTuyj-v-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="840" as="sourcePoint" />
+            <mxPoint x="270" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="760" />
+              <mxPoint x="270" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.375;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kkaidvIwW0H5mVTuyj-v-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="850" as="sourcePoint" />
+            <mxPoint x="305" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkaidvIwW0H5mVTuyj-v-64" value="csv file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="860" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
